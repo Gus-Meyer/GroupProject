@@ -8,6 +8,7 @@ class SessionsController < ApplicationController
         session[:user_id] = user.id
         flash[:success] = 'Successfully Logged In!'
         redirect_to '/cars'
+        
   
         else
         flash[:warning] = "Invalid Username or Password"
@@ -18,6 +19,6 @@ class SessionsController < ApplicationController
     def destroy
      session[:user_id] = nil
      flash[:success] = "Successfully Logged Out!"
-     redirect_to '/login'
+     redirect_to '/cars'
     end
 end

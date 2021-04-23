@@ -13,3 +13,185 @@
  *= require_tree .
  *= require_self
  */
+
+ #container { width: 900px; 
+    margin: 0px auto 0px auto; 
+    }
+body {
+    background-color: #2A5FA1;
+}
+h1{
+    font-family: 'Zen Dots';
+    color: #ddd;
+    font-size: 35px;
+}
+#linktext:link, #linktext:visited {
+    color: white;
+}
+#logo{
+     display: flex; 
+     text-decoration: none;
+}
+#logo1{
+    font-family: 'Zen Dots';
+    color: #ddd;
+    font-size: 35px;
+    text-decoration: none;
+}
+#logo2{
+    font-family: 'Zen Dots';
+    color: coral;
+    font-size: 35px;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+#logo1:hover, #logo2:hover {
+    background-color: transparent;
+}
+
+h2{
+    font-family: 'Zen Dots';
+    color: #aaa;
+    font-size: 30px;
+   
+}
+h3{
+    font-family: 'Zen Dots';
+    color: black;
+    font-size: 14px;
+    margin: 18px 0 0px 0;
+}
+#loginout {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    
+}
+#login{
+    font-family: 'Zen Dots';
+    color: white;
+    font-size: 14px;  
+}
+#goHome{
+    font-family: 'Zen Dots';
+    color: white;
+    font-size: 14px;  
+    width: 900px;
+}
+#logout{
+    font-family: 'Zen Dots';
+    color: rgb(236, 150, 150);
+    font-size: 14px;  
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex:2;
+    width: 900;
+}
+
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:12px 31px;
+    margin: 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.myButton2 {
+	background-color:coral;
+	border-radius:28px;
+	border:1px solid rgb(240, 103, 53);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:12px 31px;
+    margin: 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px black;
+}
+.myButton2:hover {
+	background-color:rgb(250, 99, 44);
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+.myButton2:visited, .myButton2:link{
+    color: #fff;
+}
+#loginContainer {
+    background-color: #144a8b;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid #000000;
+    border-radius: 21px;
+}
+
+#orLogin h2{
+    margin-top: 120px;
+    color:#0e04a3
+}
+
+#cardContainer {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#cards {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #144a8b;
+    margin: 5px;
+    border-radius: 20px;
+    
+}
+#brand {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: coral;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#model {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ddd;
+    font-size: 15px;
+    padding: 5px;
+}   
+.carImage { 
+    width:400px; 
+    border-radius:15px;
+    background-color: transparent;
+}
+
+.carImage2 { 
+    width:650px; 
+    border-radius:15px;
+    background-color: transparent;
+}
+
+#cont {
+    display: flex;
+    justify-content: flex-start;
+}

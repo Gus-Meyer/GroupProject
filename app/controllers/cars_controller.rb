@@ -4,13 +4,16 @@ class CarsController < ApplicationController
   # GET /cars or /cars.json
   def index
     
-
+    
     if current_user
+      
       @cars = Car.all
       render "index.html.erb"
+     
     else 
       flash[:warning] = "You must be logged in to see this page"
       redirect_to '/login'
+      
     end
 
     

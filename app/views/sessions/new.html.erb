@@ -1,12 +1,44 @@
-<h1>Login</h1>
-<%= form_tag '/login', method: :post do %>
- <div>
-  <%= label_tag :email %>
-  <%= text_field_tag :email%>
- </div>
- <div>
-  <%= label_tag :password %>
-  <%= password_field_tag :password %>
- </div>
-  <%= submit_tag "Submit" %>
+<div id="loginContainer">
+  <div id="loginUser">
+    <h2>Login</h2>
+    <%= form_tag '/login', method: :post do %>
+    <div>
+      <h3><%= label_tag :email %></h3>
+      <%= text_field_tag :email%>
+    </div>
+    <div>
+      <h3><%= label_tag :password %></h3>
+      <%= password_field_tag :password %>
+    </div>
+      <%= submit_tag "Submit", class: "myButton" %>
+    <%end%>
+  </div>
+
+  <div id="orLogin">
+    <h2>OR</h2>
+  </div>
+
+    <div id="createUser">
+    <h2> Create Account</h2>
+    <%=form_tag "/users", method: :post do%>
+    <div>
+      <h3><%= label_tag :name%></h3>
+      <%= text_field_tag :name%>
+    </div>
+    <div>
+      <h3><%= label_tag :email%></h3>
+      <%= text_field_tag :email%>
+    </div>
+    <div>
+      <h3><%= label_tag :password%></h3>
+      <%= password_field_tag :password%>
+    </div>
+    <div>
+      <h3><%= label_tag :password_confirmation%></h3>
+      <%= password_field_tag :password_confirmation%>
+    </div>
+    
+    <%= submit_tag "Sign Up", class: "myButton"%>
+  </div>
+</div>
 <%end%>

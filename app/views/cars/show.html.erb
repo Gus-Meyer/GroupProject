@@ -1,18 +1,15 @@
 <p id="notice"><%= notice %></p>
+<div id="cont">
+  <%# <div id="brand"><strong>Brand:</strong></div> %>
+  <div id="brand"><%= @car.brand %></div>
 
+
+  <%# <div id="brand"><strong>Model:</strong></div> %>
+  <div id="model"> <%= @car.model %></div>
+</div>
 <p>
-  <strong>Brand:</strong>
-  <%= @car.brand %>
+  <%= image_tag @car.url, :class=> 'carImage2' %>
 </p>
 
-<p>
-  <strong>Model:</strong>
-  <%= @car.model %>
-</p>
-
-<p>
-  <%= image_tag @car.url, :style=> 'width:600px;' %>
-</p>
-
-<%= link_to 'Edit', edit_car_path(@car) %> |
-<%= link_to 'Back', cars_path %>
+<%# <%= link_to 'Edit', edit_car_path(@car) %> 
+<%= link_to 'Back', cars_path, id:"linktext"  %>
