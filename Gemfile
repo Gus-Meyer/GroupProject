@@ -21,6 +21,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 gem 'bcrypt'
+gem 'acts_as_votable'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  resources :cars do
+    member do
+      put "/like" => "cars#like"
+    end
+  end
+
   get 'static/welcome'
   resources :cars
   root 'static#welcome'

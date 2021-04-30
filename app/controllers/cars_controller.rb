@@ -32,6 +32,17 @@ class CarsController < ApplicationController
   def edit
   end
 
+  def like
+    respond_to :js, :html, :json
+    
+    @car = Car.find(params[:id])
+    if params[:format] == 'like'
+      @post.liked_by current_user
+    elsif params[:format] == 'unlike'
+      @post.unliked_by current_user
+    end
+  end
+
   # POST /cars or /cars.json
   def create
     @car = Car.new(car_params)

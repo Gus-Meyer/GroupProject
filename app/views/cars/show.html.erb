@@ -11,5 +11,23 @@
   <%= image_tag @car.url, :class=> 'carImage2' %>
 </p>
 
+<span class='parent-likes'>
+  <span class="like-count" <%=@car.id%>'>
+    <%= @car.get_likes.size %> &#128591
+  </span>
+
+  <a>
+    <% if current_user.liked? @car %>
+      <div> <%= link_to like_car_path(@car, 'unlike'), class: "preached-btn",
+      method: :put, remote: :true do %> Preached </div>
+    <% end%>
+    <% else %>
+      <div> <%= link_to like_car_path(@car, 'like'), class: "preach-btn",
+      method: :put, remote: :true do %> Preach </div>
+    <% end%>
+    <% end%>
+  <a>
+</span>
+
 <%# <%= link_to 'Edit', edit_car_path(@car) %> 
 <%= link_to 'Back', cars_path, id:"linktext"  %>
