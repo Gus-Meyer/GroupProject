@@ -2,6 +2,7 @@
 
 We made an app that will show photos of SUV's that we like.
 <---screenshot here --->
+
 We used a clone of Imgur called Photo_app, from a project designed to help people learn Ruby on Rails.  It is the medium difficulty project. Here is the link:
     https://github.com/wyncode/student-resources/tree/master/trio-project
 
@@ -41,7 +42,9 @@ Next, start up the web server:
 Now open a web browser and navigate to http://localhost:3000
 
 The collaborators who also worked on this project:
+
     https://github.com/nelsonthegr8
+
     https://github.com/jjpuebla
     
 Going forward with this project, we would like to add a 'like' button, but we haven't figured that out, yet.
