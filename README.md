@@ -1,12 +1,14 @@
 # README
 
-We made an app that will show photos of SUV's that we like
+We made an app that will show photos of SUV's that we like.
 <---screenshot here --->
+We used a clone of Imgur called Photo_app, from a project designed to help people learn Ruby on Rails.  It is the medium difficulty project. Here is the link:
+    https://github.com/wyncode/student-resources/tree/master/trio-project
 
-Things you may want to cover:
 
-<---Ruby version--->
-Please ensure that you have Ruby 3.0.0 on your machine and Rails #version goes here
+
+
+Please ensure that you have Ruby 3.0.0 on your machine and Rails
 Here is how to check:
     ```bash
     ruby -v
@@ -14,7 +16,7 @@ Here is how to check:
     node -v
     yarn -v
     ```
-To install Rails:
+If you need to install Rails:
   ```bash
   gem install rails
   rails -v
@@ -38,16 +40,14 @@ Next, start up the web server:
   ```
 Now open a web browser and navigate to http://localhost:3000
 
+The collaborators who also worked on this project:
+    https://github.com/nelsonthegr8
+    https://github.com/jjpuebla
+    
+Going forward with this project, we would like to add a 'like' button, but we haven't figured that out, yet.
+    
+If anyone would like to contribute, just make a pull request for big changes 
 
-* System dependencies
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-git
-
-* Services (job queues, cache servers, search engines, etc.)
 
