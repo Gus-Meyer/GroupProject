@@ -1,11 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+We made an app that will show photos of SUV's that we like
+#screenshot here
 
 Things you may want to cover:
 
-* Ruby version
+#Ruby version
+* Please ensure that you have Ruby 3.0.0 on your machine and Rails #version goes here
 
 * System dependencies
 
@@ -15,7 +16,8 @@ Things you may want to cover:
 
 * Database initialization
 
-* How to run the test suite
+#How to run the test suite
+Clone the file at 
 
 * Services (job queues, cache servers, search engines, etc.)
 
