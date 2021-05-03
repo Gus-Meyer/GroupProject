@@ -2,7 +2,7 @@
 
 We made an app that will show photos of SUV's that we like.
 
-https://github.com/Gus-Meyer/GroupProject/blob/main/app/assets/images/suvs.jpeg?raw=true
+  <img src= "https://github.com/Gus-Meyer/GroupProject/blob/main/app/assets/images/suvs.jpeg?raw=true" >
 
 We used a clone of Imgur called Photo_app, from a project designed to help people learn Ruby on Rails.  It is the medium difficulty project. Here is the link:
     https://github.com/wyncode/student-resources/tree/master/trio-project
